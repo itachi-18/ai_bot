@@ -1,0 +1,23 @@
+version: "3.1"
+
+nlu:
+  - intent: ask_faq
+    examples: |
+      - what is your refund policy?
+      - how do I contact support?
+      - tell me about your services
+      - do you have a physical store?
+
+  - intent: ask_weather
+    examples: |
+      - what is the weather in [London](city)?
+      - how is the weather in [New York](city)?
+      - weather check for [Tokyo](city)
+      - is it raining in [Mumbai](city)?
+
+  - intent: ask_gpt
+    examples: |
+      - explain quantum physics
+      - write a poem about space
+      - give me a recipe for pasta
+      - who won the world cup in 2022?
